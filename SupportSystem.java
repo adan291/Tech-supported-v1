@@ -37,7 +37,7 @@ public class SupportSystem
         while(!finished) {
             String input = reader.getInput();
 
-            if((input.trim().toUpperCase().equals("BYE")) || (input.trim().toUpperCase().equals("Adios"))){
+            if((input.trim().toUpperCase().equals("BYE")) || (input.trim().toUpperCase().equals("ADIOS"))){
                 finished = true;
             }
             else {
